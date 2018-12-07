@@ -1,0 +1,38 @@
+{
+    "name": "so framework",
+    "description": "so 一个现代化的快速安全框架",
+    "keywords": ["so", "framework", "advanced", "project template"],
+    "homepage": "",
+    "type": "library",
+    "license": "BSD-3-Clause",
+    "authors": [
+        {
+            "name": "Pan",
+            "email": "751393839@qq.com",
+            "homepage": "http://www.soframework.com/",
+            "role": "Founder and project lead"
+        }
+    ],
+    "support": {
+        "issues": "",
+        "wiki": "",
+        "source": ""
+    },
+    "minimum-stability": "stable",
+    "require": {
+        "php": ">=7.1.0"
+    },
+    "require-dev": {
+
+    },
+    "autoload": {
+        "psr-4": {
+            "so\\": "./src"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "so\\tests\\": "tests/"
+        }
+    }
+}
